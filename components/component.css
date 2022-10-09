@@ -1,0 +1,44 @@
+.component-container {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-tripleunit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.component-text {
+  color: #ff8b8b;
+  font-size: 4em;
+  align-self: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.component-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 120px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.component-text1 {
+  font-size: 1em;
+  margin-top: var(--dl-space-space-unit);
+}
+.component-text2 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 479px) {
+  .component-container1 {
+    width: auto;
+  }
+  .component-text1 {
+    width: auto;
+  }
+}
